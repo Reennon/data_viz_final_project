@@ -1,0 +1,37 @@
+# Ignore all .idea and PyCharm folders
+.idea/
+*.iml
+
+# Ignore all CSV and Excel files in the data folders
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Ignore other common data files
+data/*.json
+data/*.xml
+
+# Ignore notebook checkpoints
+notebooks/.ipynb_checkpoints
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore other common files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
