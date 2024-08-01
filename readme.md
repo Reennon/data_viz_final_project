@@ -117,8 +117,6 @@ The current implementation has limited interactivity. The bar plot and line char
 3. **Are there any time-based patterns?**
    - The line chart at the bottom of the dashboard displays the number of daily submissions, helping to identify patterns over time.
 
-Feel free to explore the dashboard and gain insights from the data! If you have any questions or need further assistance, please contact [Your Contact Information].
-
 ## Consideration of Alternative Tools
 
 While PyDeck was used for its ability to create 3D bar plots on maps, it presented challenges in terms of interactivity and integration with other plots. Altair could be a better alternative due to its simpler integration and interactivity features. However, those two libs has its own pros and cons:
