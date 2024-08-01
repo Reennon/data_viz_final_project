@@ -2,7 +2,9 @@
 
 The DREAM Dashboard provides an interactive visualization of submissions for financing educational facilities, grouped by region. This dashboard helps users to explore and analyze the data based on various parameters, offering insights into the distribution of submissions and funding requests.
 
-The data source is from [Dream API](https://dream.gov.ua/ua)
+The data is gathered using [Dream API](https://dream.gov.ua/ua)
+
+The dashboard is deployed on [Dream Dashboard](https://rokovalch.pythonanywhere.com/) on PythonAnywhere
 
 ## Screenshots
 
@@ -77,7 +79,7 @@ poetry install
 ## Application Deployment
 
 The application is deployed on PythonAnywhere. You can access the live dashboard at the following link:
-\[PLACEHOLDER FOR LINK\]
+[LINK](https://rokovalch.pythonanywhere.com/)
 
 ## Dashboard Overview
 
