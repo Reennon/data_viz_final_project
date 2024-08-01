@@ -81,7 +81,7 @@ The application is deployed on PythonAnywhere. You can access the live dashboard
 
 ## Dashboard Overview
 
-![Dashboard Screenshot](path_to_image)
+![Dashboard Screenshot](./images/screenshot_5.png)
 
 The dashboard includes the following components:
 
@@ -122,4 +122,3 @@ Feel free to explore the dashboard and gain insights from the data! If you have 
 ## More Examples
 
 ![screenshot_4.png](images%2Fscreenshot_4.png)
-![screenshot_5.png](images%2Fscreenshot_5.png)
