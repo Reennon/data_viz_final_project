@@ -119,6 +119,13 @@ The current implementation has limited interactivity. The bar plot and line char
 
 Feel free to explore the dashboard and gain insights from the data! If you have any questions or need further assistance, please contact [Your Contact Information].
 
+## Consideration of Alternative Tools
+
+While PyDeck was used for its ability to create 3D bar plots on maps, it presented challenges in terms of interactivity and integration with other plots. Altair could be a better alternative due to its simpler integration and interactivity features. However, those two libs has its own pros and cons:
+
+- Pros: Easier integration, better interactivity, and declarative syntax.
+- Cons: Limited support for 3D visualizations, which was the primary reason for choosing PyDeck.
+
 ## More Examples
 
 ![screenshot_4.png](images%2Fscreenshot_4.png)
