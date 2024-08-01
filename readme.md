@@ -1,8 +1,8 @@
-## README
-
 # DREAM Dashboard
 
 The DREAM Dashboard provides an interactive visualization of submissions for financing educational facilities, grouped by region. This dashboard helps users to explore and analyze the data based on various parameters, offering insights into the distribution of submissions and funding requests.
+
+The data source is from [Dream API](https://dream.gov.ua/ua)
 
 ## Screenshots
 
