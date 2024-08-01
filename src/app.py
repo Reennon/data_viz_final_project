@@ -379,10 +379,9 @@ def update_map(group_by):
             ['initiator_region', group_by],
             as_index=False
         ).agg({
-            'number_of_submissions': 'sum',
+            'number_of_submissions': 'count',
             lat_col: 'first',
             long_col: 'first',
-            'color': 'first'
         })
         color_map = PYDECK_ITEM_CLASSIFICATION_COLOR_MAP
         grouped_df['color'] = grouped_df.apply(
@@ -397,13 +396,12 @@ def update_map(group_by):
         lat_col = f'latitude_grid_{group_by}'
         long_col = f'longitude_grid_{group_by}'
         grouped_df = submissions_golden_df.groupby(
-        ['initiator_region', group_by],
-        as_index=False
+            ['initiator_region', group_by],
+            as_index=False
         ).agg({
-        'number_of_submissions': 'sum',
-        lat_col: 'first',
-        long_col: 'first',
-        'color': 'first'
+            'number_of_submissions': 'count',
+            lat_col: 'first',
+            long_col: 'first',
         })
         color_map = PYDECK_STATUS_MAP_COLOR_MAP
         grouped_df['color'] = grouped_df.apply(
@@ -427,7 +425,7 @@ def update_map(group_by):
     # Create the layer
     layer = pdk.Layer(
         'ColumnLayer',
-        elevation_scale=1250,
+        elevation_scale=5000,
         data=grouped_df,
         get_position=[long_col, lat_col],
         get_fill_color='color',
